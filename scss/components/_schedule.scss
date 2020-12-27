@@ -1,0 +1,78 @@
+.schedule {
+    .container {
+        padding-top: 5rem;
+        .nav-tabs {
+            .nav-item {
+                position: relative;
+                .nav-link {
+                    font-size: 1.125rem;
+                    color: #000000;
+                    padding: 0.75rem 2rem;
+                    text-transform: uppercase;
+                    &::after {
+                        content: "";
+                        display: block;
+                        width: 0%;
+                        height: 0.25rem;
+                        background: linear-gradient(to right, $light_orange, $dark_orange);
+                        box-shadow: 0 0 20px 0 $light_orange;
+                        position: absolute;
+                        left: 0;
+                        bottom: -0.1rem;
+                        transition: all 0.5s;
+                    }         
+                }  
+                .nav-link.active {
+                    color: $dark_orange;
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            .show {
+                img {
+                    border-radius: 12px;
+                }
+                .category {
+                    color: $dark_orange;
+                }
+                .title {
+                    font-size: 1.25rem;
+                    padding: 2rem 0rem;
+                }
+                p{
+                    opacity: 0.8;
+                }
+                .more {
+                    color: $dark_orange;
+                }
+                .viewtimes {
+                  
+                    padding-top: 1.25rem; 
+                    justify-content:space-between;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    .limit {
+                        margin: 0.75rem 0;
+                        line-height: 2rem;
+                        span {
+                            width: 33px;
+                            height: 33px;
+                            font-weight: 700;
+                            font-size: 0.75rem;
+                           
+                            text-align: center;
+                        }
+                    }
+                    i {
+                        margin: 0.75rem 0;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+
+        }
+    }
+}
