@@ -1,0 +1,17 @@
+.footer {
+	background-color: #101010;
+	.info {
+		font-size: 0.75rem;
+	}
+
+	h1 {
+		font-size: 1rem;
+		color: $dark-orange;
+		margin: 1rem 0;
+	}
+	a {
+		color: white;
+		font-size: 0.75rem;
+		line-height: 1.25rem;
+	}
+}

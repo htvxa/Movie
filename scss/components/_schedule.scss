@@ -4,7 +4,9 @@
         .nav-tabs {
             .nav-item {
                 position: relative;
+              
                 .nav-link {
+                    border: none;
                     font-size: 1.125rem;
                     color: #000000;
                     padding: 0.75rem 2rem;
@@ -34,6 +36,7 @@
             .show {
                 img {
                     border-radius: 12px;
+                    
                 }
                 .category {
                     color: $dark_orange;
@@ -54,6 +57,10 @@
                     justify-content:space-between;
                     flex-wrap: wrap;
                     align-items: center;
+                    button {
+                        margin: 0.25rem 0;
+                    }
+
                     .limit {
                         margin: 0.75rem 0;
                         line-height: 2rem;
@@ -70,6 +77,7 @@
                         margin: 0.75rem 0;
                         font-size: 0.8rem;
                     }
+
                 }
             }
 

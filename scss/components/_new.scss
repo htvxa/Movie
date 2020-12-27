@@ -22,6 +22,9 @@
 		}
 		.row {
 			padding-top: 3rem;
+			.rating {
+				padding-bottom: 1.5rem;
+			}
 		}
 		.img {
             border-radius: 0.75rem;
@@ -81,8 +84,5 @@
 			font-size: 1.25rem;
 		}
 		text-align: center;
-		.star-point {
-			color: $light_orange;
-		}
 	}
 }
