@@ -1,0 +1,26 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	.navbar-nav {
+		border-color: rgba(255, 255, 255, 0.3) !important;
+	}
+	.nav-link:after {
+		content: "";
+		display: block;
+		width: 0%;
+		height: 0.25rem;
+		background: linear-gradient(to right, $light_orange, $dark_orange);
+		box-shadow: 0 0 20px 0 #fbbd61;
+		position: absolute;
+		left: 0;
+		bottom: -0.1rem;
+		transition: all 0.5s;
+	}
+	.nav-link:hover::after,
+	.nav-link.active::after {
+		width: 100%;
+	}
+}

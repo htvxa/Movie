@@ -1,0 +1,20 @@
+.btn {
+    font-size: 0.8rem;
+    letter-spacing: 0.25rem;
+    border-width: 0.125rem;
+}
+
+.btn-default {
+    padding: 0.8rem 1.5rem;
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #fbbd61, #ec7532);
+}
+
+.btn-gray {
+    padding: 0.5rem 0.5rem;
+    border: none;
+    background-color: #d8d8d8;
+    margin-left: 0.5rem;
+}
